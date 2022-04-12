@@ -38,16 +38,30 @@ color:var(--font-color);
   color: var(--font-color);
 
 }
+/* начинается статья с контентом */
 .main-article{
-  
+  margin:0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
 }
-.content-top{
+.content-top, .reversed{
+  text-align: center;
+}
+.content-center{}
 
+.reversed{
+  background-color:#926239;
+  color:white;
 }
-.content-center{
-
+.bottom{
+  margin:inherit;
+  padding: 5px;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 33.33%;
+  vertical-align: top;
 }
-.content-bottom-block-left .content-bottom-block-right{
+.content-bottom-block-left, .content-bottom-block-right, .reversed {
   
 }
 .content-bottom-block-center{
