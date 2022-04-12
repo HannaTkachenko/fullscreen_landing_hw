@@ -41,12 +41,15 @@ color:var(--font-color);
 .main-article{
   
 }
-.content{
+.content-top{
 
 }
-.content-narrow-block-left .content-narrow-block-right{
+.content-center{
+
+}
+.content-bottom-block-left .content-bottom-block-right{
   
 }
-.content-narrow-block-center{
+.content-bottom-block-center{
   
 }
