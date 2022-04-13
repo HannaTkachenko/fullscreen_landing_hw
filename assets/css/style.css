@@ -2,8 +2,9 @@ body{
   margin:0;
   padding:0;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  --font-color: rgb(146, 98, 57);
-  color:var(--font-color)
+  --font-color: #926239;
+  color:var(--font-color);
+  line-height: 1.6;
   }
 *{
 margin:inherit;
@@ -14,41 +15,40 @@ background-size: cover;
 background-position: bottom right;
 height: 100vh;
 text-align: center;
-font-size: 16px;
+font-size: 20px;
 }
-section>p{
+/* section>p{
   padding-bottom: 10px;
-}
+} */
 .main-title{
   display:block;
   padding-top: 40vh;
   max-width: 100vw;
-  font-size: 2em;
+  font-size: 2.5em;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
   text-transform: capitalize;
 }
 .button{
-  padding: 5px 20px;
+  padding: 10px 20px;
   border: 1px solid var(--font-color);
   border-radius: 10px;
-  font-size: 0.8em;
+  font-size: 0.9em;
   text-transform: capitalize;
   text-decoration-line: none;
   color: var(--font-color);
 }
 /* начинается статья с контентом */
-.main-article{
-  font-size: 14px;
-}
-.main-article>p{
+.container{
+  font-size: 17px;
+  }
+.container>p{
   padding: 10px; 
 }
 .article-title{
   padding: 5px;
   text-align: center;
-
 }
 .reversed-bg{
   background-color: var(--font-color);
@@ -58,11 +58,9 @@ article>p,.reversed-bg{
   text-align: center;
 }
 .bottom{
-  padding: 5px;
-  display: inline-block;
+  display: inline-table;
   box-sizing: border-box;
   width: 33.33%;
-  min-height: max-content;
   vertical-align: top;
   text-align: left;
 }
